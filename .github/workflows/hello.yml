@@ -35,4 +35,6 @@ jobs:
       - name: download
         uses: actions/download-artifact@v4
         with: 
-          name: drago.txt
+          name: drago
+      - name: display
+        run : cat drago.txt
