@@ -23,7 +23,7 @@ jobs:
       - name: upload
         uses: actions/upload-artifact@v4
         with:
-            name: drago
+            name: drago1
             path: ./drago.txt
   job1:
     runs-on: ubuntu-latest
