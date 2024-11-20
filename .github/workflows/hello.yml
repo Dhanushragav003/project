@@ -27,6 +27,7 @@ jobs:
             path: /drago.txt
   test:
     runs-on: ubuntu-latest
+    needs: cowsay_job
     steps:
       # Checkout the repository
       - name: Checkout code
