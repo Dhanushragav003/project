@@ -7,4 +7,4 @@ if ! command -v cowsay &> /dev/null; then
 fi
 
 cowsay -f dragon "I'm dragon" >> drago.txt
-
+cat drago.txt
