@@ -11,7 +11,7 @@ jobs:
       - name: display
         env:
           USERNAME: "dhanush"
-        run : echo $USERNAME
+        run : echo ${{ vars.USERNAME }}
     
   # job:
   #   runs-on: ubuntu-latest
