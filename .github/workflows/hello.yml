@@ -1,0 +1,9 @@
+name: hello
+on: push
+
+jobs:
+    hello:
+      runs-on: ubuntu-latest
+      steps:
+        - name: echo hi
+          run: cat hi.txt
