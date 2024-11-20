@@ -7,6 +7,8 @@ on:
 jobs:
   test-job:
     runs-on: ubuntu-latest
+    env:
+      USERNAME : "Dhanushragav"
     steps:
       - name: display
         run : echo $USERNAME
