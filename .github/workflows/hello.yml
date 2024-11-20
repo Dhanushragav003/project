@@ -17,4 +17,6 @@ jobs:
 
       # Run the cowsay script
       - name: Run cowsay_script.sh
-        run: ./scripts.sh
+        run: |
+          chmod +x scripts.sh
+          ./scripts.sh
