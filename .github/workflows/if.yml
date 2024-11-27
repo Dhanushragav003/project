@@ -15,5 +15,5 @@ jobs:
         runs-on: ubuntu-latest
         steps:
             - name: "next"
-              run : echo "next running after secon merge"
+              run : echo "next running after secon merge in master"
   
