@@ -9,9 +9,7 @@ jobs:
     
     steps:
       - name: display
-        run : | 
-          echo ${{ vars.USERNAME }} ${{ secrets.Pass}} 
-          echo ${{ vars.USERNAME }}
+        run : echo ${{ vars.USERNAME }} ${{ secrets.Pass}}
     
   # job:
   #   runs-on: ubuntu-latest
