@@ -11,6 +11,7 @@ jobs:
             - name : "printing"
               run : echo "condition True"
     next-job:
+        needs: check-condition
         runs-on: ubuntu-latest
         steps:
             - name: "next"
