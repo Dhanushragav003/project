@@ -15,5 +15,5 @@ jobs:
         runs-on: ubuntu-latest
         steps:
             - name: "next"
-              run : echo "next running"
+              run : echo "next running in master"
   
