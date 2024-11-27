@@ -9,9 +9,9 @@ jobs:
     
     steps:
       - name: display
-        env:
-          USERNAME: "dhanush"
-        run : echo ${{ vars.USERNAME }} ${{ secrets.Pass}}
+        run : | 
+          echo ${{ vars.USERNAME }} ${{ secrets.Pass}} 
+          echo ${{ vars.USERNAME }}
     
   # job:
   #   runs-on: ubuntu-latest
